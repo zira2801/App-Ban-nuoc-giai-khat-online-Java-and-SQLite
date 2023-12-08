@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">C&amp;D</string>
+    <integer name="gia_sp">50000</integer>
+    <string name="title_home">Home</string>
+    <string name="title_list">Danh mục sản phẩm</string>
+    <string name="title_cart">Giỏ hàng</string>
+    <string name="title_chat">Yêu thích</string>
+    <string name="title_profile">Tài khoản</string>
+    <string name="open">Open Navigation</string>
+    <string name="close">Close Navigation</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

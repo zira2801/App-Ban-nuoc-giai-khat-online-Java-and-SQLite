@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới tính"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/img_thoatGioitinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_close_24"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+<RadioGroup
+    android:id="@+id/radgroup"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp">
+    <RadioButton
+        android:id="@+id/radNam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nam"
+        android:layout_margin="10dp"
+        />
+    <RadioButton
+        android:id="@+id/radNu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nữ"
+        android:layout_margin="10dp"/>
+</RadioGroup>
+    <Button
+        android:id="@+id/update_gioitinh"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:background="@drawable/color_background_edit"
+        android:textStyle="bold"/>
+</LinearLayout>
